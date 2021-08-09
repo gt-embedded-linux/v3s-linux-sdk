@@ -6,9 +6,7 @@ v3s sdk with uboot, linux, and rootfs
 - sudo apt-get install zlib1g:i386
 - sudo apt-get install lib32stdc++6
 - export PATH="$PATH:/sdk_path/tools/external-toolchain/bin/"
-
-*
-arm-linux-gnueabi-gcc -v
+- arm-linux-gnueabi-gcc -v
 - ## build u-boot
 
 cd u-boot
